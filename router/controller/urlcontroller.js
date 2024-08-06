@@ -2,7 +2,6 @@ import express from 'express';
 import { UrlModel } from '../../db.utils/model.js';
 import crypto from 'crypto';
 import jwt from 'jsonwebtoken';
-import { Usermodel } from '../../db.utils/model.js'; // Ensure the correct path
 
 const UrlRouter = express.Router();
 
